@@ -1,9 +1,11 @@
 --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/
 intel-extension-for-pytorch==2.8.10+xpu
-torch==2.8.0
+torch==2.9.0
 oneccl_bind_pt==2.8.0+xpu
 optimum[openvino]
 setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
 wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
 transformers>=4.53.0 # not directly required, pinned by Snyk to avoid a vulnerability
 filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
