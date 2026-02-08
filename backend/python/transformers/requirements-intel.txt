@@ -11,3 +11,4 @@ bitsandbytes
 outetts
 sentence-transformers==5.2.0
 protobuf==6.33.2
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
