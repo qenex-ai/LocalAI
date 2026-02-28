@@ -4,5 +4,5 @@ accelerate
 compel
 peft
 sentencepiece
-torch==2.7.1+cu118
+torch==2.10.0+cu130
 optimum-quanto
