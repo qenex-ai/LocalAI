@@ -1,5 +1,5 @@
 --extra-index-url https://download.pytorch.org/whl/rocm6.3
-torch==2.7.1+rocm6.3
+torch==2.7.1+cu118
 accelerate
 transformers
 llvmlite==0.43.0
@@ -8,4 +8,4 @@ bitsandbytes
 outetts
 bitsandbytes
 sentence-transformers==5.2.0
-protobuf==6.33.2
+protobuf==6.33.5
