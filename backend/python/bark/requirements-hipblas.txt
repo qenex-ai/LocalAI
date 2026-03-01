@@ -4,3 +4,4 @@ torchaudio==2.4.1+rocm6.0
 transformers
 accelerate
 setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
